@@ -1,29 +1,29 @@
-# element-ui-demo
+# 介绍
+学习vue-element-admin的练习项目前端,实现一个登陆及结合日历的待办事项
 
-## Project setup
+## 初始化配置
 ```
-yarn install
+npm install 
 ```
-
-### Compiles and hot-reloads for development
+或
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## 项目结构
+├─mock #
+├─src #
+│  ├─api #
+│  ├─assets #
+│  ├─bear #
+│  ├─components #
+│  ├─icons #
+│  ├─layouts #
+│  ├─locale #
+│  ├─router #
+│  ├─store #
+│  ├─styles #
+│  ├─utils  #
+│  └─views #
+└─testsS
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

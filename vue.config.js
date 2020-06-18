@@ -31,7 +31,7 @@ module.exports = {
   lintOnSave: process.env.NODE_ENV === "development",
   productionSourceMap: false,
 
-  //mock数据代理(前段正常,后端报错)
+  //mock数据代理(前端正常,后端报错)
   devServer: {
     before(app) {
       if (process.env.MOCK !== "none") {
