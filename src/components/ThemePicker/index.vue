@@ -102,9 +102,7 @@ export default {
           themeCluster
         );
       });
-
       this.$emit("change", val);
-
       $message.close();
     }
   },
